@@ -3,7 +3,7 @@
 
 set -e
 . ${GRASSBUILDRC-~/.grassbuildrc}
-cd $GRASS_ADDONS_SRC
+cd $GRASS_ADDONS_SRC/grass7
 
 grass_build_scripts=$HOME/usr/local/src/grass-build-scripts
 arch=`$grass_build_scripts/switcharch.sh --query`
